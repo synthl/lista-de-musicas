@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Calibri';
+    text-align: center;
+}
+
+table {
+    font-family: 'Calibri';
+    font-size: 14px;
+    text-align: center;
+    border: 2px solid #000;
+    background-color: #ccc;
+    width: 600px;
+}
+
+th, td {
+    border: 1px solid #000;
+    background-color: #FFF;
+    height: 30px;
+}
+
+th {
+    font-size: 16px;
+}
+
+.table {
+    display:grid;
+    justify-content: center;
+    margin:20px;
+}
